@@ -55,9 +55,26 @@ echo $Names["Age"] . "<br/>";
 echo "<pre>";
 print_r($Names);
 echo "<pre/>";
+
+
+echo $Names["Color"] . "<br/>";
+echo $Names["0"] . "<br/>";
+echo $Names["Lang"] . "<br/>";
+echo $Names["1"] . "<br/>";
+echo $Names["2"] . "<br/>";
+
 */
+/*$Names = ["Baran" , "Mehmet"];
 
 
+echo "<pre>";
+print_r($Names);
+echo "</pre>";
+
+
+echo $Names[1] . "<br/>";
+echo $Names[0] . "<br/>";
+*/
 ?>
 
 </body>
