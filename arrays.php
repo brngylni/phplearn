@@ -50,11 +50,13 @@ echo $Names["Surname"] . "<br/>";
 echo $Names["Age"] . "<br/>";
 */
 
-$Names = array("Color" => "Blue" , "Boat" , "Lang" => "PHP" , "Shoes" , "TV");
+/*$Names = array("Color" => "Blue" , "Boat" , "Lang" => "PHP" , "Shoes" , "TV");
 
 echo "<pre>";
 print_r($Names);
 echo "<pre/>";
+*/
+
 
 ?>
 
