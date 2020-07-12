@@ -7,12 +7,33 @@
 <title>Learning PHP</title>
 </head>
 <body>
-<?php
+	<?php
+
+
+// We can define any variable or constant in arrays.
+
+$Name = "Mehmet";
+$Surname = "Geylani";
+
+define("WARE" , "Table");
+define("VEHICLE" , "Steambot");
+
+
+const COLOR = "blue";
+const LANG = "PHP";
 
 
 
+$Values = array($Name , $Surname , WARE , VEHICLE , "Color" => COLOR , LANG , "Cinema");
 
-?>
+
+echo "<pre>";
+print_r($Values);
+echo "<pre/>";
+
+
+
+	?>
 </body>
 </html>
 
