@@ -25,6 +25,12 @@
 	echo "</pre><br/><br/>";
 
 
+
+
+
+
+	//İf we dont want to change main array.We can change the datas from $Values variable without changing the main array which located in $names variable.
+
 	?>
 </body>
 </html>
