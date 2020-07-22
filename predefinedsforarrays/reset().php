@@ -26,6 +26,7 @@ echo "Pointers default key name : " . $Pointer . "<br />";
 $Element 	= current($Names);
 echo "Pointers default value : " . $Element . "<br /><br /><br />";
 
+echo "next<br /><br />";
 next($Names);
 
 $Pointer2 	= key($Names);
@@ -33,6 +34,7 @@ $Element2 	= current($Names);
 echo "Pointers changed location is " . $Pointer2 . "<br />";
 echo "Pointers changed value is " . $Element2 . "<br /><br /><br />";
 
+echo "next<br /><br />";
 next($Names);
 
 $Pointer2 	= key($Names);
@@ -40,7 +42,7 @@ $Element2 	= current($Names);
 echo "Pointers changed location is " . $Pointer2 . "<br />";
 echo "Pointers changed value is " . $Element2 . "<br /><br /><br />";
 
-
+echo "prev<br /><br />";
 prev($Names);
 
 $Pointer2 	= key($Names);
@@ -48,7 +50,7 @@ $Element2 	= current($Names);
 echo "Pointers changed location is " . $Pointer2 . "<br />";
 echo "Pointers changed value is " . $Element2 . "<br /><br /><br />";
 
-
+echo "reset<br /><br />";
 reset($Names);
 
 $Pointer2 	= key($Names);
