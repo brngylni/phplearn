@@ -20,7 +20,7 @@
     echo "</pre><br />";
 
     $Process    = range("a","z");
-
+    
     echo "<pre>";
     print_r($Process);
     echo "</pre>";
