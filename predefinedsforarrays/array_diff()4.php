@@ -28,10 +28,10 @@
 	echo "<pre>";	
 	print_r($Color2);
 	echo "</pre><br />";
+	//First entered arrays elements will be took as a base everytime.
+	$Colors		=	array_diff_assoc($Color, $Color2);
 
-	$Colors		=	array_diff($Color, $Color2);
-
-	//It will take the elements of the "$Color" array which different from "Color2" arrays elements.
+	//It will take the elements of the "$Color" array which has a different kay names or elemet value from "$Color2" arrays elements.
 	echo "<pre>";	
 	print_r($Colors);
 	echo "</pre>";

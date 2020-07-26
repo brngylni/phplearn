@@ -17,7 +17,7 @@
 
 
 	$Color		=	array("Black", "White", "Red", "Yellow", "Blue", "Grey", "Claret Red", "Green");
-	$Color2		=	array("Pink", "Amaranth", "Dark Blue","Yellow", "Blue", "Grey", "Claret Red");
+	$Color2		=	array("Pink", "Amaranth", "Dark Blue","Yellow", "Blue");
 
 
 	echo "<pre>";	
@@ -29,7 +29,7 @@
 	print_r($Color2);
 	echo "</pre><br />";
 
-	$Colors		=	array_diff($Color, $Color2);
+	$Colors		=	array_diff_key($Color, $Color2);
 
 	//It will take the elements of the "$Color" array which different from "Color2" arrays elements.
 	echo "<pre>";	
