@@ -11,6 +11,7 @@
 
 	/*
 	ksort()	:	It is using to sort the key names of an array alphabetically.It is responsive upper-lower cases.
+	//If the key names are numbers, it will sort by smaller to bigger.
 	*/
 
 	$Values	=	array("One" => "Mehmet", "Two" => "Baran", "Three" => "Kara", "Four" => "Geylani", "Five" => "Kerim", "Six" =>"Gökhan");
