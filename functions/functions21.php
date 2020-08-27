@@ -8,13 +8,17 @@
 </head>
 <body>
 	<?php
-	//Running a function without call it.
 
-	($Process	=	function(){
-		echo "Mehmet Geylani";
-	})();
+	($Process	=	function($Name="", $Surname=""){
+		echo $Name . " " . $Surname;
+	})("Baran", "Kara");
 
+	echo "<br />";
+	function Process($Name, $Surname){
+		echo $Name . " " . $Surname;
+	}
 
+	Process("Mehmet", "Geylani")
 
 	?>
 </body>
