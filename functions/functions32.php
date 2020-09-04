@@ -18,7 +18,11 @@
 
 		}
 		$Write 	=	Two("Geylani");		
-		return $Name . " " . $Write;
+		return $Name . " " . $Write;öç.......               ü,üiiii.ömfdsdfghjklşi
+
+	işlkjhgfdsdfghjklşi
+777    
+
 
 	}
 
