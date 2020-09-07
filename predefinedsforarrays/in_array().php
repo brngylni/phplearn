@@ -11,7 +11,7 @@
 
 	/*
 
-	in_array()	:	It is using to controll if the specified elemet exists or not.
+	in_array()	:	It is using to controll if the specified element exists or not.
 
 	*/
 

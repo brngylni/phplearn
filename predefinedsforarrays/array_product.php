@@ -10,7 +10,7 @@
 	<?php
 
 	/*
-	array_product()		:	It is usinsg to find the multiplication of all numeric elements of an array.
+	array_product()		:	It is using to find the multiplication of all numeric elements of an array.
 	*/
 
 	 $Numbers	=	array(2, 5, 6, 12, 64, 23, 0.56, 92.6);

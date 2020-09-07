@@ -10,7 +10,7 @@
 <?php
 
 /*
-end() 	: It is using for find the element in which last location of pointer.
+end() 	: It is using to find the element in which last location of pointer.
 Actually the last element of an array.
 */
 

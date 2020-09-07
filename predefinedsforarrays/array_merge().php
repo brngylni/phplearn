@@ -31,7 +31,15 @@ print_r($Array2);
 echo "</pre><br /><br /><br />";
 
 echo "<pre>";
+print_r($Array3);
+echo "</pre><br /><br /><br />";
+
+echo "<pre>";
 print_r($NewArray);
+echo "</pre><br /><br /><br />";
+
+echo "<pre>";
+print_r($NewArray2);
 echo "</pre><br /><br /><br />";
 
 echo "<pre>";

@@ -11,7 +11,7 @@
 
 /*
 
-array_unshift()		:It is using for addin an element to the beginning of an array.
+array_unshift()		:It is using to add an element to the beginning of an array.
 Also it returns the total number of components in which  array  with last added ones.
 //We cant assign any key name with array_unshift(). We can assign just the elements.
 

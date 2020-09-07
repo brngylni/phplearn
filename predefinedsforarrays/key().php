@@ -12,7 +12,7 @@
 
 /*
 
-key() 	: It using for finding the key name of the element which the pointer of the array.
+key() 	: It is using to find the key name of the element which the pointer of the array.
 Pointer is generally  the first element of the array if the key names not changed.
 */
 

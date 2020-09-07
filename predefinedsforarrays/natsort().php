@@ -9,7 +9,7 @@
 <body>
 	<?php
 	/*
-	natsort()	:	It is using to sort the elements of any array from "a" to "z" resposively upper and lower cases.
+	natsort()	:	It is using to sort the elements of any array from "a" to "z" responsively upper and lower cases.
 	*/
 
 	$Images		=	array("Image1", "Image2", "Image14", "Image142", "Image273", "Image2645", "Image372", "Image3");

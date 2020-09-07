@@ -19,7 +19,7 @@
 	*/
 
 
-	$Values 	=	array("Mehmet", "Baran", "Kara", "Geylani", "Ali");
+	$Values 	=	array("Mehmet", "MEHMET", "Mehmet1", "Mehmet2" , "Mehmet12", "Baran", "Kara", "Geylani", "Ali");
 
 	echo "<pre>";
 	print_r($Values);

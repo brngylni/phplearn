@@ -17,7 +17,7 @@
 
 
 	$Color		=	array("Black", "White", "Red", "Yellow", "Blue", "Grey", "Claret Red", "Green");
-	$Color2		=	array("Pink", "Amaranth", "Dark Blue","Yellow", "Blue", "Grey", "Claret Red");
+	$Color2		=	array("Pink", "Black", "Dark Blue","Yellow", "Blue", "Grey", "Claret Red");
 
 
 	echo "<pre>";	
