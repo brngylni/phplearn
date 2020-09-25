@@ -14,6 +14,7 @@
 
 	$Content 	=	"Hello Mehmet Geylani, Hello Ahmet Geylani, Hello Muhammet Geylani";
 	$Pattern 	=	"/(?:Meh)met/"; //Difference between using '?:' and not using '?:' is the memorized data.Group data wouldn't be memorize with '?:'. It only memorizes the match.
+	
 	preg_match_all($Pattern, $Content, $Result);
 
 	echo "The content : " . $Content . "<br /><pre>";
