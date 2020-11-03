@@ -13,7 +13,7 @@
 	*/
 
 	$Text 		=	"Mehmet Geylani, PHP Student.";
-	$Pattern 	=	"/P H P/x"; //It can't cath any match without 'x' parameter.
+	$Pattern 	=	"/P H P/x"; //It can't catch any match without 'x' parameter.
 	preg_match($Pattern, $Text, $Result);
 
 	echo "The original content : " . $Text . "<br />";
