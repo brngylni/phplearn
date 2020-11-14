@@ -9,7 +9,7 @@
 <body>
 	<?php
 	/*
-	date(format)ate_modify() 	: It is using to add the specified date to new created date object.
+	date_modify() 	: It is using to add the specified date to new created date object.
 	*/
 	$time 	=	date_create();
 
