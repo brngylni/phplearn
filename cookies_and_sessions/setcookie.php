@@ -19,7 +19,7 @@
 
 	$lifetime 	=	time() + (60 * 60);
 	setcookie("Username", "Baran", $lifetime);
-	setcookie("UsernSurname", "Geylani", $lifetime);
+	setcookie("UsernSurname", "Geylani", $lifetime); // We can give 0 lifetime to delete a cookie.
 	setcookie("School", "Adu", $lifetime);
 
 	echo "<pre>";
