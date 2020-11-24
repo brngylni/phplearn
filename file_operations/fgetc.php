@@ -12,16 +12,17 @@
 	fgetc() 	:It controlls any file's or URL's content and find the informations character by character then returns it. Also the values in that characters can be obtained with any loop.
 	
 	*/
-	$file 		=	"D:/xampp/htdocs/phplearn/asd.txt";
+	$file 		=	"folder/file.txt";
 	$fileOpen	=	fopen($file, "r");
-
+	$counter 	=	0;
 	while(!feof($fileOpen)){
 		$read 		=	fgetc($fileOpen) . "<br />"; // We can fetch the all characters with that statement
 		echo 	$read;
+		$counter++;
 	}
 			// Save the file  as ansi coding and use iconv method for Turkish characters.
 
-
+		echo $counter;
 		$fileClose 	=	fclose($fileOpen);
 	?>
 </body>

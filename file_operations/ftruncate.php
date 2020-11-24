@@ -15,7 +15,7 @@
 	$file 			=	"folder/file.txt";
 	$fileOpen		=	fopen($file, "a");
 	$totalCharNum	=	0;
-	ftruncate($fileOpen, 3000);	// Removed whole file content.
+	ftruncate($fileOpen, 0);	// Removed whole file content.
 	fclose($fileOpen);
 	$fileOpen 	=	fopen($file, "r");
 
