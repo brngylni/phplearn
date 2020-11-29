@@ -12,11 +12,13 @@
 		class Process{
 
 			public static $name = "Mehmet";
+			public static function print() {
+				echo 5;
+			}
 		}
 
-		echo Process::$name;	// We can access to property without calling the class or creating an object.Static properties can't be changed like every constant.
-
-
+		echo Process::$name . "<br />";	// We can access to property without calling the class or creating an object.Static properties can't be changed like every constant.
+		Process::print(); // We can also access to static functiouns without calling class.
 	?>
 </body>
 </html>
