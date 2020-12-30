@@ -9,7 +9,7 @@
 <body>
 	<?php
 	/*
-	spl_autoload_register() : It is using to 
+	spl_autoload_register() : It is using to define the process the will be executed when there is no such a class.
 	*/
 	function autoRun($value){
 		$fileName = $value . ".php";
