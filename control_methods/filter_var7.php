@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta http-equiv="Content-Language" content="tr">
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+	<?php
+	// Requires a path after URL.
+	$value = "http://www.google.com/index.php";
+	$value2 = "http://www.google.com";
+
+	if(filter_var($value, FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED)){
+		echo "This is a path<br />";
+	}else{
+		echo "This isn't a path<br />";
+	}
+
+	if(filter_var($value2, FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED)){
+		echo "This is a path<br />";
+	}else{
+		echo "This isn't a path<br />";
+	}
+	?>
+</body>
+</html>
