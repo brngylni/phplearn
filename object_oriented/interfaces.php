@@ -10,6 +10,7 @@
 	<?php
 	interface Trial{
 		public function define($parameterContent);
+		
 	}
 	class Test implements Trial{
 		public function define($parameterContent){
