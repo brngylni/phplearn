@@ -12,7 +12,7 @@
 	class One{
 
 		public $name 	= "Mehmet";
-		public const SURNAME = "Geylani";	// It will print 1 error because in classes, any error will stop the ru
+		public const SURNAME = "Geylani";	// It will print 1 error because in classes, any error will stop the run
 
 		public function information(){
 			$text 	= $this->name . " " . self::SURNAME . " is a CS student."; 	// We have to use $this and self:: keywords to access to properties/data field.
